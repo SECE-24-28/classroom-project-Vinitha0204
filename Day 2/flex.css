@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+.ol{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+    font-size: 20px;
+}
+header{
+    background-color: cadetblue;
+    color: black;
+    padding: 10px;
+}
+.li{
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+.li:hover{
+    color:cadetblue;
+    background-color: white;
+    border-radius: 5px;
+}

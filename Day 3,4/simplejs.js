@@ -1,0 +1,11 @@
+console.log("hello");
+a=10;
+b=20;
+c=a+b;
+console.log(c);
+d="vinitha";
+e=a+d;
+console.log(e);
+f=true;
+console.log(f)
+console.log(a+f+c)

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  
+<!--<p id="title">Hello World!!</p>
+<button id="toggle" onclick="toggle()">toggle</button>-->
+
+<!-- Paragraph for size increase -->
+<p id="para">This is a sample paragraph. Click the button to increase my size.</p>
+
+<button id="toggle" onclick="increaseSize()">Increase Size</button>
+
+<script>
+
+  var size = 16; 
+
+    var increaseSize = () => {
+        size += 2;  
+        document.getElementById("para").style.fontSize = size + "px";
+    };
+/*
+  var toggle = () =>{
+  var color = ["red","Blue","Green","Orange","yellow"];
+  var index = Math.floor(Math.random()*color.length);
+  document.querySelector('body').style.backgroundColor=color[index];
+  }
+  */
+  /*
+  var buttonclicked=()=>{
+ var title=document.getElementById('title');
+ var result = title.innerText==="Hello World!!"?"Hello Venisha" : "Hello World";
+ title.innerText = result;
+}
+*/
+
+  /*
+var toggle = () =>{
+  var color = ["red","Blue","Green","Orange","yellow"];
+  var ind = Math.floor(Math.random()*color.length);
+  document.querySelector('body').style.backgroundColor=color[ind];
+}
+*/
+
+ 
+    </script>
+     </body>
+</html>

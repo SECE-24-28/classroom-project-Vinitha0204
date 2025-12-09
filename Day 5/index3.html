@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <!--- <div id="msg"></div> -->
+
+   <!---- <p class="item">One</p>
+    <p class="item">Two</p> -->
+    <!--<p id="msg"></p>
+    <button id="Submit">Show Message</button> -->
+   <!--<ul id ="List"></ul> -->
+   <!--<button id="submit" onclick="submitted()">click</button> -->
+     <p id="name"></p>
+     <input type="text" id="inp" placeholder="Enter the name : ">
+     <button id="submit">submit</button>
+
+    <script>
+          
+          document.getElementById("submit").addEventListener("click",()=>{
+            var text = document.getElementById("inp").value;
+            document.getElementById("name").innerText=text;
+          })
+
+           //var submitted = ()=> {
+            //alert("Hiii")
+           //}
+
+       // var li = document.createElement("li");
+        //li.innerText="One";
+        //document.getElementById("List").append(li);
+       // document.getElementById("Submit").addEventListener("click",()=> {
+       //     document.getElementById("msg").innerText="Hello World!!"
+       // })
+        //document.getElementById('msg').innerText = "Hello"
+       // document.getElementById('msg').innerHTML = "<p>Hello</p>"
+        /*
+        document.getElementById('msg').style.color="Red"
+        var item = document.getElementsByClassName('item');
+        item[0].style.color="Green"
+         document.querySelector('#item').style.backgroundColor="blue" //id
+         document.querySelector('.list').style.backgroundColor="blue"   //class
+        document.querySelector('p').style.backgroundColor="blue"  //tag
+        */
+    </script>
+    
+</body>
+</html>
